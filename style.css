@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background: #111;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+    height: 90vh;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home span {
+    color: #00eaff;
+}
+
+.home button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    background: #00eaff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+section {
+    padding: 60px 80px;
+}
+
+.skills span {
+    display: inline-block;
+    background: #222;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
